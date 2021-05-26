@@ -1,0 +1,10 @@
+[requires]
+eigen/3.3.9
+sophus/20210517@curt/testing
+pcl/1.11.0@demo/testing
+
+[generators]
+cmake
+
+[options]
+pcl:with_cuda=True

@@ -15,6 +15,10 @@ endif()
 
 set(CMAKE_BUILD_TYPE "Release")
 
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup()
+
+
 find_package(PCL REQUIRED)
 find_package(Eigen3 REQUIRED)
 

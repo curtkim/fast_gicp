@@ -8,8 +8,8 @@
 #include <pcl/point_cloud.h>
 #include <pcl/filters/approximate_voxel_grid.h>
 
-#include <pcl/visualization/pcl_visualizer.h>
-#include <pcl/visualization/point_cloud_color_handlers.h>
+//#include <pcl/visualization/pcl_visualizer.h>
+//#include <pcl/visualization/point_cloud_color_handlers.h>
 
 #include <fast_gicp/gicp/fast_gicp.hpp>
 #include <fast_gicp/gicp/fast_vgicp.hpp>
@@ -69,6 +69,7 @@ private:
 };
 
 int main(int argc, char** argv) {
+  /*
   if (argc < 2) {
     std::cout << "usage: gicp_kitti /your/kitti/path/sequences/00/velodyne" << std::endl;
     return 0;
@@ -151,6 +152,6 @@ int main(int argc, char** argv) {
     }
     ofs << std::endl;
   }
-
+  */
   return 0;
 }
